@@ -48,7 +48,7 @@ jobs:
       - name: Checkout Armbian OS Config
         uses: actions/checkout@v3.3.0
         with:
-          repository: bimizx/os
+          repository: bimizx/Armbian-Build
           ref:  main
           clean: false
           fetch-depth: 1
@@ -110,7 +110,7 @@ jobs:
       - name: Checkout Armbian OS Config
         uses: actions/checkout@v3.3.0
         with:
-          repository: bimizx/os
+          repository: bimizx/Armbian-Build
           ref:  main
           fetch-depth: 1
           clean: false
